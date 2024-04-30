@@ -25,9 +25,9 @@
   cursor: pointer;
   background-color: #6574cd;
   background-color: aliceblue;
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   background-color: #131313;
-background-color: #21273E;
+  background-color: #21273e;
 }
 
 .inner-card {
@@ -35,16 +35,21 @@ background-color: #21273E;
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  color: #FFA800;
-  color: #D8AD83;
+  color: #ffa800;
+  /* color: #d8ad83; */
+}
 
+.right-inner-card{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
-.profile-img{
-    border-radius: 3px;
-    transition: 0.3s ease-in;
+.profile-img {
+  border-radius: 3px;
+  transition: 0.3s ease-in;
 }
-.profile-img:hover{
-    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.202);
+.profile-img:hover {
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.202);
 }
 .name-div {
   display: flex;

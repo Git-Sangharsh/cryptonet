@@ -7,7 +7,6 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
-// import { FiMousePointer } from "react-icons/fi";
 
 const Profile = () => {
   const [apiData, setApiData] = useState([]);
@@ -21,9 +20,9 @@ const Profile = () => {
       .catch((err) => console.log("error found: " + err));
   }, []);
 
-  //! Main Content start from here --------------------------------
-  const ROTATION_RANGE = 15.5;
-  const HALF_ROTATION_RANGE = 15.5 / 2;
+  //! Framer Motion Animation
+  const ROTATION_RANGE = 36.5;
+  const HALF_ROTATION_RANGE = 36.5 / 2;
 
   const ref = useRef(null);
 
